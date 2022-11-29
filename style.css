@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #000;
+	color: #fff;
+	font: 16px sans-serif;
+	text-align: center;
+}
+
+button {
+	all: unset;
+	width: 10em;
+	padding: 0.5em 0;
+	border: 1px solid #fff;
+	border-radius: 0.5em;
+	cursor: pointer;
+}
+button:hover, button:focus {
+	color: hsl(0, 0%, 75%);
+}
+button:active {
+	color: hsl(0, 0%, 50%);
+}
+
+.char-display {
+	width: 200px;
+	height: 200px;
+	margin: 1em;
+	border: 1px solid #fff;
+	border-radius: 1em;
+}
+
+.output-caption {
+	margin: 1.5em 0 0.25em;
+	color: hsl(0, 0%, 60%);
+}
+
+.output {
+	font-size: 1.5em;
+}
